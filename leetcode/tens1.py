@@ -3,7 +3,6 @@ class solution():
 
     def __init__(self):
         '''
-
         '''
 
     def search_target(self, nums:list, target:int)->int:
