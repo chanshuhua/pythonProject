@@ -1,5 +1,11 @@
 
 class solution():
+
+    def __init__(self):
+        '''
+
+        '''
+
     def search_target(self, nums:list, target:int)->int:
         '''
         二分查找
@@ -25,6 +31,5 @@ class solution():
 
 
 
-
 if __name__ == '__main__':
-    resp = solution().search_target(nums=[0,2,4,8],target=8)
+    resp = solution().search_target(nums=[0,1,2,3,4],target=4)
