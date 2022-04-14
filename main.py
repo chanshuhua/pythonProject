@@ -145,60 +145,83 @@ if __name__ == '__main__':
                     nums[j] = logo
         return nums
 
-
-    def exchange(num1,num2):
-
-
-        logo = num1
-        num1 = num2
-        num2 = logo
-        return num1,num2
-
-# 规则
-    #第一位数字
-
-    nums = [8,8,62,6,68,89]
-    # for n in nums:
-    #     lenmax = 0
-    #     if len(str(n))>=lenmax:
-    #         lenmax=len(str(n))
-    #         print("lens-max:{}".format(lenmax))
-
-        # first = str(i)[0:1]
-        # print(first)
-
-    for i in range(len(nums) - 1):
-        for j in range(len(nums) - 1 - i):
-            if len(nums[j]) == len(nums[j+1]):
-                a = 0
-                while a < len(nums[j]):
-                    if nums[j][a:a+1] > nums[j+1][a:a+1]:
-                        break
-                    elif nums[j][a:a+1] == nums[j+1][a:a+1]:
-                        a+=1
-                        continue
-                    else:
-                        exchange(nums[j],nums[j+1])
-                        break
-            elif len(nums[j]) > len(nums[j+1]):
-                a = 0
-                while a < len(nums[j]):
-                    if a == len(nums[j+1]):
-                        if nums[j][a-1:a] >= nums[j][a:a+1]:
-                            exchange(nums[j],nums[j+1])
-                        break
-                    if nums[j][a:a + 1] > nums[j + 1][a:a + 1]:
-                        break
-                    elif nums[j][a:a + 1] == nums[j + 1][a:a + 1]:
-                        a += 1
-                        continue
-                    else:
-                        exchange(nums[j], nums[j + 1])
-                        break
-
-
+#
+#     def exchange(num1,num2):
+#
+#
+#         logo = num1
+#         num1 = num2
+#         num2 = logo
+#         return num1,num2
+#
+# # 规则
+#     #第一位数字
+#
+#     nums = [8,8,62,6,68,89]
+#     # for n in nums:
+#     #     lenmax = 0
+#     #     if len(str(n))>=lenmax:
+#     #         lenmax=len(str(n))
+#     #         print("lens-max:{}".format(lenmax))
+#
+#         # first = str(i)[0:1]
+#         # print(first)
+#
+#     for i in range(len(nums) - 1):
+#         for j in range(len(nums) - 1 - i):
+#             if len(nums[j]) == len(nums[j+1]):
+#                 a = 0
+#                 while a < len(nums[j]):
+#                     if nums[j][a:a+1] > nums[j+1][a:a+1]:
+#                         break
+#                     elif nums[j][a:a+1] == nums[j+1][a:a+1]:
+#                         a+=1
+#                         continue
+#                     else:
+#                         exchange(nums[j],nums[j+1])
+#                         break
+#             elif len(nums[j]) > len(nums[j+1]):
+#                 a = 0
+#                 while a < len(nums[j]):
+#                     if a == len(nums[j+1]):
+#                         if nums[j][a-1:a] >= nums[j][a:a+1]:
+#                             exchange(nums[j],nums[j+1])
+#                         break
+#                     if nums[j][a:a + 1] > nums[j + 1][a:a + 1]:
+#                         break
+#                     elif nums[j][a:a + 1] == nums[j + 1][a:a + 1]:
+#                         a += 1
+#                         continue
+#                     else:
+#                         exchange(nums[j], nums[j + 1])
+#                         break
 
 
+import sys
+
+
+def fibonacci(n):  # 生成器函数 - 斐波那契
+    a, b, counter = 0, 1, 0
+    while True:
+        if (counter > n):
+            return
+        # print(a)
+        yield a
+        a, b = b, a + b
+        counter += 1
+
+
+f = fibonacci(10)  # f 是一个迭代器，由生成器返回生成
+
+while True:
+    try:
+        # print(next(f), end=" ")
+        print(next(f))
+        print(' ')
+        # next(f)
+        # print(format(list(f)))
+    except StopIteration:
+        sys.exit()
 
 
 

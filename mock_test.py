@@ -45,12 +45,18 @@ class ServerRequestHandler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
 
-        print(self.headers)
-        print(self.command)
+        print("headers{}".format(self.headers))
+        print("headers{}".format(self.command))
+        # print("headers{}".format(self.headers['content-length']))
 
         req_datas = self.rfile.read(int(self.headers['content-length']))  # 重点在此步!
-     #   req_date_head = req_datas['']
-        print(req_datas.decode())
+        # print(req_datas.decode())
+
+        # 取机检中的keywords[]关键词内容
+        req_datasmain=json.loads(req_datas.decode())
+        keywords=req_datasmain["keywords"]
+        print(keywords)
+        print(len(keywords))
 
         data = {
             'code' : 200

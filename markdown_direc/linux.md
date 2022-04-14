@@ -29,3 +29,10 @@
 - yum install -y lrzsz
 - 输入rz，从本地上传文件到linux
 - 输入sz，从linux下载文件到本地
+
+
+## 寻找文件夹
+-find . -name "*.json"  
+查找当前目录下所有带json后缀的文件
+. 代表当前目录
+-name 代表需要寻找的文件
