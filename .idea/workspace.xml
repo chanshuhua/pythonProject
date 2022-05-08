@@ -16,23 +16,44 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95cecbf9-0a51-4be7-b08d-8030d10fccb3" name="Default Changelist" comment="">
+    <list default="true" id="95cecbf9-0a51-4be7-b08d-8030d10fccb3" name="Default Changelist" comment="数据结构、内置函数、面向对象等知识点梳理">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commom/db_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown_direc/test_blackbox.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Http_server/http_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown_direc/mysql.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commom/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_direc/linux.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commom/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_direc/python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commom/db_connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/commom/db_connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_direc/datastructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/SingleLinkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_direc/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_direc/linux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_direc/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_direc/python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Http_server/mock_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Http_server/mock_test_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,9 +65,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python38/python.exe" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.db_connect">
-    <configuration name="db_connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chan\PycharmProjects\pythonProject2\Http_server" />
+      <recent name="C:\Users\chan\PycharmProjects\pythonProject2\datastructure" />
+      <recent name="C:\Users\chan\PycharmProjects\pythonProject2\rsa_github" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.http_server">
+    <configuration name="SingleLinkList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +85,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/markdown_direc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commom/db_connect.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\chan\PycharmProjects\pythonProject2\datastructure\SingleLinkList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="http_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\chan\PycharmProjects\pythonProject2\Http_server\http_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,9 +140,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mock_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\chan\PycharmProjects\pythonProject2\Http_server\mock_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.db_connect" />
+        <item itemvalue="Python.http_server" />
+        <item itemvalue="Python.SingleLinkList" />
+        <item itemvalue="Python.mock_test" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -104,6 +201,28 @@
       <option name="presentableId" value="Default" />
       <updated>1647712684430</updated>
     </task>
+    <task id="LOCAL-00001" summary="数据库连接初始结构">
+      <created>1647880285059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647880285060</updated>
+    </task>
+    <task id="LOCAL-00002" summary="黑盒测试知识梳理">
+      <created>1647880329784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647880329784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数据结构、内置函数、面向对象等知识点梳理">
+      <created>1649954063485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649954063485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,40 +230,249 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据库连接初始结构" />
+    <MESSAGE value="黑盒测试知识梳理" />
+    <MESSAGE value="数据结构、内置函数、面向对象等知识点梳理" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构、内置函数、面向对象等知识点梳理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647712939505">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1647712939505" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1647880149348">
+    <state x="514" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648519619268">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1647880149348" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1647880149347">
+    <state x="514" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1648519619268" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649486683267">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1647880149347" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1647880149347">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1648519644680" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1649486683267" />
+    <state width="386" height="442" key="Diff.GoToChangePopup" timestamp="1647880884856">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1647880149347" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1647880149347">
+    <state width="386" height="442" key="Diff.GoToChangePopup/0.0.1536.816@0.0.1536.816" timestamp="1647880884856" />
+    <state x="93" y="93" width="1688" height="797" key="DiffContextDialog" timestamp="1649989274991">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1647880149347" />
-    <state x="468" y="140" width="600" height="536" key="find.popup" timestamp="1647779378531">
+    <state x="93" y="93" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649989274991" />
+    <state x="2036" y="118" width="1688" height="797" key="DiffContextDialog/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1647947033900" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1647880889155" />
+    <state x="647" y="215" key="FileChooserDialogImpl" timestamp="1648659483076">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="468" y="140" width="600" height="536" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1647779378531" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1647757321657">
+    <state x="647" y="215" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1648659483076" />
+    <state x="2692" y="352" key="GrepConsoleSound" timestamp="1647949398761">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2692" y="352" key="GrepConsoleSound/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1647949398761" />
+    <state width="1515" height="222" key="GridCell.Tab.0.bottom" timestamp="1651902120060">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1647757321657" />
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1651029440612" />
+    <state width="1899" height="218" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650440185659" />
+    <state width="1515" height="222" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1651902120060" />
+    <state width="1515" height="222" key="GridCell.Tab.0.center" timestamp="1651902120059">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="218" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1651029440612" />
+    <state width="1899" height="218" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650440185659" />
+    <state width="1515" height="222" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1651902120059" />
+    <state width="1515" height="222" key="GridCell.Tab.0.left" timestamp="1651902120059">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="218" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1651029440611" />
+    <state width="1899" height="218" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650440185658" />
+    <state width="1515" height="222" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1651902120059" />
+    <state width="1515" height="222" key="GridCell.Tab.0.right" timestamp="1651902120059">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="218" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1651029440612" />
+    <state width="1899" height="218" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650440185659" />
+    <state width="1515" height="222" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1651902120059" />
+    <state width="1515" height="222" key="GridCell.Tab.1.bottom" timestamp="1651902120060">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="274" key="GridCell.Tab.1.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649652886831" />
+    <state width="1899" height="223" key="GridCell.Tab.1.bottom/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650434791537" />
+    <state width="1515" height="222" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1651902120060" />
+    <state width="1515" height="222" key="GridCell.Tab.1.center" timestamp="1651902120060">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="274" key="GridCell.Tab.1.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649652886831" />
+    <state width="1899" height="223" key="GridCell.Tab.1.center/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650434791537" />
+    <state width="1515" height="222" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1651902120060" />
+    <state width="1515" height="222" key="GridCell.Tab.1.left" timestamp="1651902120060">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="274" key="GridCell.Tab.1.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649652886831" />
+    <state width="1899" height="223" key="GridCell.Tab.1.left/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650434791537" />
+    <state width="1515" height="222" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1651902120060" />
+    <state width="1515" height="222" key="GridCell.Tab.1.right" timestamp="1651902120060">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="274" key="GridCell.Tab.1.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649652886831" />
+    <state width="1899" height="223" key="GridCell.Tab.1.right/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650434791537" />
+    <state width="1515" height="222" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1651902120060" />
+    <state x="403" y="169" key="MultipleFileMergeDialog" timestamp="1649954398764">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="403" y="169" key="MultipleFileMergeDialog/0.0.1536.816@0.0.1536.816" timestamp="1649954398764" />
+    <state x="346" y="58" key="SettingsEditor" timestamp="1649989370099">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="346" y="58" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649989370099" />
+    <state x="2381" y="160" key="SettingsEditor/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1647947591800" />
+    <state x="499" y="106" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1649156360024" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1649989385648">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649989385648" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1649954465386" />
+    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649325432323">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1649325432323" />
+    <state x="2435" y="245" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650434789032">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2435" y="245" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650434789032" />
+    <state x="468" y="140" width="600" height="536" key="find.popup" timestamp="1649692819496">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="468" y="140" width="600" height="536" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1649692819496" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1649640491266">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1649640491266" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>205</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>223</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>221</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datastructure/SingleLinkList.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

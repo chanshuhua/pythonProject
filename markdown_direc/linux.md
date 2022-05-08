@@ -36,3 +36,21 @@
 查找当前目录下所有带json后缀的文件
 . 代表当前目录
 -name 代表需要寻找的文件
+
+##更改系统时间再改回来 
+1、更改权限 su jenkins password:Dl7mdkzbMLwe0FBu  
+2、切换root权限 sudo su - root  
+3、date -s "2022-04-12 23:24:34"
+4、yum install ntpdate 下载ntpdate服务 ntpdate  ntp.api.bz （上海时区）
+5、重启对应docker服务，使得服务的时间可重新load
+
+
+##清除缓存
+ 清理缓存  
+echo 1 > /proc/sys/vm/drop_caches  
+echo 2 > /proc/sys/vm/drop_caches  
+echo 3 > /proc/sys/vm/drop_caches  
+
+
+
+

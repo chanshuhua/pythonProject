@@ -35,6 +35,6 @@ class Database(object):
 
 
 if __name__ == '__main__':
-        search_sql = 'select name,rule_condition from check_rule where id = 1'
+        search_sql = 'select id from '
         data = Database().db_conn('search',search_sql,True)
         print(data)

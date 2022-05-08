@@ -9,10 +9,13 @@ from http.server import SimpleHTTPRequestHandler
 import requests
 from urllib.parse import urlparse
 
+# httpserver 文档
+# https://docs.python.org/zh-cn/3/library/http.server.html
+
 class ServerRequestHandler(SimpleHTTPRequestHandler):
     protocol_version = "HTTP/1.0"
     server_version = "PSHS/0.1"
-    sys_version = "Python/3.6.x"
+    sys_version = "Python/3.8.x"
 
     def handler(self):
         print("data:", self.rfile.readline().decode())
@@ -46,11 +49,11 @@ class ServerRequestHandler(SimpleHTTPRequestHandler):
     def do_POST(self):
 
         print("headers{}".format(self.headers))
-        print("headers{}".format(self.command))
+        print("command{}".format(self.command))
         # print("headers{}".format(self.headers['content-length']))
 
         req_datas = self.rfile.read(int(self.headers['content-length']))  # 重点在此步!
-        # print(req_datas.decode())
+        print(req_datas.decode())
 
         # 取机检中的keywords[]关键词内容
         req_datasmain=json.loads(req_datas.decode())
