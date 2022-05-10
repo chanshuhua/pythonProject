@@ -59,29 +59,35 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         self.send_response(200,'post')  # 服务端向客户端发送状态码和参数内容
-        self.send_header('Content-Type', 'application/text') # # 服务端向客户端发送请求格式
+        self.send_header('Content-Type', 'application/json') #  服务端向客户端发送请求格式
         self.end_headers()
         # self.send_error(500)
 
+
         # 服务端返回内容到客户端
         # 输出流至客户端
-        message = {'code': 200, 'message': 'post request SUCCESS'}  # 返回给客户端的内容
-        message_bytes = json.dumps(message).encode()
-        self.wfile.write(message_bytes)  # 输出流至客户端
+        req_data_bytes = self.rfile.read(int(self.headers['content-length']))  # 获取客户端发送体的Content-Type 内容
+
+        # message = {'code': 200, 'message': 'post request SUCCESS' }  # 返回给客户端的内容
+        # print(type(message))
+        # message_bytes = json.dumps(req_data_bytes).encode()
+        # print(message_bytes)
+        self.wfile.write(req_data_bytes)  # 输出流至客户端
 
         # 解析客户端过来的请求头、内容..
         print(self.headers)
-        print("Postman-Token:{}".format(self.headers['Postman-Token'])) # 可获取客户端的发送的鉴权信息
-        print(self.headers["Cookie"])
+
+        # print("Postman-Token:{}".format(self.headers['Postman-Token'])) # 可获取客户端的发送的鉴权信息
+        # print(self.headers["Cookie"])
 
         # 获取请求体url...
         url = 'http://' + server_address[0] + ':' + str(server_address[1]) + self.path
         print(url)
 
-        # 获取请求内容
-        req_data_bytes = self.rfile.read(int(self.headers['content-length']))  # 获取客户端发送体的Content-Type 内容
-        req_data = json.loads(req_data_bytes)  #bytes->json 将post请求中的输入流拦截
-        # print(self.path)
+        # # 获取请求内容
+        # req_data_bytes = self.rfile.read(int(self.headers['content-length']))  # 获取客户端发送体的Content-Type 内容
+        req_data = json.loads(req_data_bytes)  # bytes->json 将post请求中的输入流拦截
+        print(self.path)
         print("请求体：{}".format(req_data))
 
         # 对请求参数做处理

@@ -7,6 +7,10 @@ SELECT DISTINCT rule_condition->'$.conditions' FROM see_management_4.business_sc
 
 ```
 
-
+#### sql注入
+```
+SQL注入即是指web应用程序对用户输入数据的合法性没有判断或过滤不严，攻击者可以在web应用程序中事先定义好的查询语句的结尾上添加额外的SQL语句，
+在管理员不知情的情况下实现非法操作，以此来实现欺骗数据库服务器执行非授权的任意查询，从而进一步得到相应的数据信息。
+```
 
 
