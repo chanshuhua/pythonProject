@@ -3,6 +3,7 @@ import math
 import operator
 from filecmp import cmp
 from functools import reduce
+import re
 
 from jsonpath import xrange
 
@@ -266,7 +267,7 @@ def set_def():
     print(z)   # 直接输出字符串
     print('交集{}'.format(x&y)) # 取交集
     print('并集{}'.format(x|y)) # 取并集
-    print('差集{}'.format(x-y))  # 取差集 同y-x
+    print('差集{}'.format(x-y))  # 取差集 y-x
     print('补集{}'.format(x^y))  #补集 同y^x
 
 class abc():
@@ -311,6 +312,145 @@ def exec_def():
     exec(input("please:"))
     exec(hello="print('hello')")
 
+def match_def(names):
+    '''
+    起始位置开始匹配，若匹配则返回
+    :param names:
+    :return:
+    '''
+    m = re.match('qian',names)
+    if m is not None:
+        m.group()
+        return m.group()
+    else:
+        return "no match"
+# names = "zhaoqiansunli"
+# print(match_def(names))
+
+def search_def(names):
+    '''
+    全文匹配
+    :param names:
+    :return:
+    '''
+    s = re.search("qian",names)
+    if s is not None:
+        s.group()
+        return s.group()
+    else:
+        return "no match"
+
+def argument_send(a,b,*args,**kwargs):
+    print(a,b)
+    for i in args:
+        print(i)
+    for i in kwargs:
+        print("%s : %s",(i,kwargs[i]))
+        print(i,kwargs.get(i))
+        print(kwargs.keys(),kwargs.items())
 
 if __name__ == '__main__':
-    exec_def()
+    # argument_send(1,2,3,4,5,name="chenshuhua",sex="female")
+    # set_def()
+
+    # for i in range(3):
+    #     print(i)
+
+    # res = [1,2,3]
+    # print(','.join(map(str,res)))
+    # print(''.join(str(i) for i in res))
+
+
+
+    # nums = [5,7,7,8,8,10]
+    # target = 8
+    # # return nums.count(target)
+    # # 搜索右边界 right
+    # i, j = 0, len(nums) - 1
+    # print(i,j)
+    # while i <= j:
+    #     m = (i + j) // 2
+    #     if nums[m] <= target:
+    #         i = m + 1
+    #     else:
+    #         j = m - 1
+    # right = i
+    # # 若数组中无 target ，则提前返回
+    # if j >= 0 and nums[j] != target: print(000)
+    # # 搜索左边界 left
+    # i = 0
+    # while i <= j:
+    #     m = (i + j) // 2
+    #     if nums[m] < target:
+    #         i = m + 1
+    #     else:
+    #         j = m - 1
+    # left = j
+    # print(right - left - 1)
+
+    # nums = [2,3,4,5]
+    #
+    # ii = [i for i in range(10)]
+    # print(ii)
+
+    # sset = {11,25,19,91,32,6,86,54,103,58,45,102}
+    # print(type(sset))
+    #
+    # listset = list(sset)
+    # print(type(listset))
+    # listset.sort()
+    # print(listset)
+    #
+    # dictten = {'0':0,'1':1,'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'8':8,'9':9,'A':10,'B':11,'C':12,'D':13,'E':14,'F':15}
+
+    # nums = int(input())
+    # # for i in range(2,nums+1):
+    # i = 2
+    # while nums != 1:
+    #     if nums % 2 == 0:
+    #         print(i, end=' ')
+    #         nums //= i
+    #     else:
+    #         i += 1
+    # nums = input()
+    # index_value = {}
+    # for i in range(int(nums)):
+    #     list_i = input().split(' ')
+    #     if list_i[0] not in index_value:
+    #         index_value[list_i[0]] = int(list_i[1])
+    #     else:
+    #         index_value[list_i[0]] += int(list_i[1])
+    # for j in index_value:
+    #     print(str(j) + ' ' + str(index_value[j])
+
+    # m = {1:2,4:4,3:5}
+    # print(min(m.keys()))
+    #
+    # s = (1,2,2,3,4)
+    # print(min(s))
+
+    # i = 1.2
+    # j = 1.7
+    # print(round(i))
+    # print(round(j))
+
+
+    # numbers = [2,2,2,0,1]
+    # l, r = 0, len(numbers) - 1
+    # # print(l,r)
+    # while l < r:
+    #     mid = (l + r) // 2
+    #     print(mid)
+    #     if numbers[mid] <= numbers[-1]:
+    #         r = mid - 1
+    #     else:
+    #         l = mid + 1
+    #     print(l,r)
+
+    queue = [1,2]
+    for i in range(len(queue)):
+        print(queue[-i-1])
+        # queue.pop(0)
+        # queue.append('r')
+        # print(queue)
+    # print(queue)

@@ -1,0 +1,2 @@
+sqls:
+  0: 'select * from see_management_4 group by id where id = 5;'

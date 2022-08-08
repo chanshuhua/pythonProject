@@ -27,8 +27,22 @@ class solution():
         return -1
 
 
-
+class Solution:
+    def __init__(self):
+        self.array = [0]*100
+    def climbStairs(self, n: int) -> int:
+        # print(len(self.array))
+        if n == 1:
+            self.array[1] = 1
+            return 1
+        if n == 2:
+            self.array[2] = 2
+            return 2
+        if self.array[n]>0:
+            return self.array[n]
+        return self.climbStairs(n-1) + self.climbStairs(n-2)
 
 
 if __name__ == '__main__':
-    resp = solution().search_target(nums=[0,1,2,3,4],target=4)
+    # resp = solution().search_target(nums=[0,1,2,3,4],target=4)
+    print(Solution().climbStairs(10))
